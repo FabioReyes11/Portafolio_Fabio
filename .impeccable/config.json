@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-01T06:10:23.795Z",
+        "reason": "Claude: la foto de día está en opacidad 0 solo en modo noche; es el fundido del selector Día/Noche y se muestra al cambiar"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-01T06:10:23.973Z",
+        "reason": "Claude: las secciones tienen 120-200px arriba/abajo y margen lateral --m (verificado en capturas a 1440/768/390); .dn son botones con 18px de relleno que llenan el control"
+      }
+    ]
+  }
+}

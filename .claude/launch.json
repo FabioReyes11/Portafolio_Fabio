@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portafolio",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["-e", "const h=require('http'),f=require('fs'),p=require('path');const T={'.html':'text/html; charset=utf-8','.jpg':'image/jpeg','.mp4':'video/mp4','.css':'text/css','.js':'text/javascript'};h.createServer((q,r)=>{const u=decodeURIComponent(q.url.split('?')[0]);const fp=p.join(process.cwd(),u==='/'?'index.html':u);f.stat(fp,(e,s)=>{if(e||!s.isFile()){r.writeHead(404);return r.end()}const t=T[p.extname(fp).toLowerCase()]||'application/octet-stream';const rg=q.headers.range;if(rg){const[a,b]=rg.replace('bytes=','').split('-');const st=+a,en=b?+b:s.size-1;r.writeHead(206,{'Content-Type':t,'Content-Range':'bytes '+st+'-'+en+'/'+s.size,'Accept-Ranges':'bytes','Content-Length':en-st+1});return f.createReadStream(fp,{start:st,end:en}).pipe(r)}r.writeHead(200,{'Content-Type':t,'Content-Length':s.size,'Accept-Ranges':'bytes'});f.createReadStream(fp).pipe(r)})}).listen(5173)"],
+      "port": 5173
+    }
+  ]
+}
