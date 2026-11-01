@@ -1,2 +1,3 @@
-# GitHub no acepta archivos de más de 100 MB. La página usa sus copias en img/web e img/thumb.
-img/diseno-04.jpg
+# Original sin comprimir (126 MB): GitHub no acepta archivos de más de 100 MB.
+# img/diseno-04.jpg es su versión comprimida (10000 px de alto, calidad 90).
+img/diseno-04-original.jpg
