@@ -140,13 +140,16 @@ section{padding-block:clamp(64px,8vw,112px)}
 .stats span{color:var(--muted);font-size:.92rem;line-height:1.35}
 
 /* ===== MI TRABAJO: pestañas y vitrina ===== */
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-.tabs button{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 8px 0 18px;border-radius:999px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);font-weight:600;color:var(--muted);transition:color 200ms ease,background-color 200ms ease}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.tabs button{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 7px 0 15px;font-size:.95rem;border-radius:999px;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line);font-weight:600;color:var(--muted);transition:color 200ms ease,background-color 200ms ease}
 .tabs button small{min-width:30px;height:30px;padding:0 8px;display:grid;place-items:center;border-radius:999px;background:var(--surface-2);font-size:.85rem;font-weight:700;color:var(--ink);transition:background-color 200ms ease}
 @media (hover:hover){.tabs button:hover{color:var(--ink)}}
 .tabs button[aria-selected="true"]{background:var(--grad);color:#111;box-shadow:none}
 .tabs button[aria-selected="true"] small{background:rgba(0,0,0,.14);color:#111}
-@media(max-width:720px){.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:calc(var(--m) * -1);padding-inline:var(--m)}.tabs::-webkit-scrollbar{display:none}.tabs button{flex:none}}
+@media(max-width:720px){.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:calc(var(--m) * -1);padding-inline:var(--m)}.tabs::-webkit-scrollbar{display:none}.tabs button{flex:none}
+  /* Las pestañas se desvanecen en los bordes: se nota que hay más y nada queda pegado a la orilla */
+  .tabs{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 var(--m),#000 calc(100% - 40px),transparent);mask-image:linear-gradient(90deg,transparent 0,#000 var(--m),#000 calc(100% - 40px),transparent);scroll-padding-inline:var(--m)}
+  .tabs::after{content:"";flex:none;width:24px}}
 .show{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.5fr);gap:14px;padding:14px;border-radius:var(--r-xl);background:var(--grad-soft),var(--surface);box-shadow:inset 0 0 0 1px var(--line)}
 .show-info{display:grid;align-content:space-between;gap:28px;padding:clamp(14px,2.4vw,30px)}
 .show-info .idx{font:600 .9rem/1 var(--display);color:var(--accent-text);letter-spacing:0}
@@ -351,7 +354,7 @@ footer{padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
       <div class="stats" data-r>
         <div><b>+2 años</b><span>contando historias</span></div>
         <div><b id="stat-n">66</b><span>trabajos en el portafolio</span></div>
-        <div><b>7</b><span>categorías</span></div>
+        <div><b id="stat-c">8</b><span>categorías</span></div>
       </div>
     </div>
   </section>
@@ -366,8 +369,8 @@ footer{padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
       <div class="show" id="show" role="tabpanel" data-r style="--d:1">
         <div class="show-info">
           <div>
-            <span class="idx" id="sh-idx">01 / 07</span>
-            <h3 id="sh-name">Retrato urbano</h3>
+            <span class="idx" id="sh-idx">01 / 08</span>
+            <h3 id="sh-name">Diseño gráfico</h3>
             <p id="sh-desc"></p>
             <span class="count" id="sh-count"></span>
           </div>
@@ -417,7 +420,7 @@ footer{padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
       </div>
       <div class="svc-list">
         <article class="svc" data-r>
-          <div class="pic"><img src="img/thumb/retrato-urbano-10.jpg" alt="" loading="lazy"></div>
+          <div class="pic"><img src="img/thumb/retrato-urbano-09.jpg" alt="" loading="lazy"></div>
           <div><span class="n">01</span><h4>Fotografía</h4><p>Retrato, eventos, estudio y producto publicitario.</p></div>
         </article>
         <article class="svc" data-r style="--d:1">
@@ -425,11 +428,11 @@ footer{padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
           <div><span class="n">02</span><h4>Video</h4><p>Contenido para redes y cobertura de actividades.</p></div>
         </article>
         <article class="svc" data-r>
-          <div class="pic"><img src="img/thumb/diseno-08.jpg" alt="" loading="lazy"></div>
+          <div class="pic"><img src="img/thumb/diseno-01.jpg" alt="" loading="lazy"></div>
           <div><span class="n">03</span><h4>Diseño</h4><p>Logos, banners, catálogos y piezas digitales.</p></div>
         </article>
         <article class="svc" data-r style="--d:1">
-          <div class="pic"><img src="img/thumb/evento-17.jpg" alt="" loading="lazy"></div>
+          <div class="pic"><img src="img/thumb/boda-01.jpg" alt="" loading="lazy"></div>
           <div><span class="n">04</span><h4>Edición</h4><p>Retoque fotográfico y montaje de video.</p></div>
         </article>
       </div>
@@ -514,23 +517,25 @@ footer{padding:0 0 calc(16px + env(safe-area-inset-bottom,0px))}
 <script>
 /* ================= CATEGORÍAS =================
    n = cuántas piezas tiene la categoría · cover = número de la foto que sirve de portada
-   (la vitrina de "Mi trabajo" muestra la portada y dos fotos más, repartidas por la categoría)
+   (la vitrina de "Mi trabajo" muestra la portada y dos fotos más, repartidas por la categoría;
+   show = elegir a mano qué fotos salen en la vitrina)
    Originales en img/. La página usa copias ligeras: img/web/ (1800 px) e img/thumb/ (720 px).
    Al agregar fotos nuevas, crea también sus copias (ver CLAUDE.md).
    Videos: videos/video-01.mp4, videos/video-02.mp4 */
 const CATS=[
-  {id:'retrato-urbano', name:'Retrato urbano',        n:15, cover:2,  desc:'La ciudad como escenario, la gente como protagonista.'},
+  {id:'diseno',         name:'Diseño gráfico',        n:11, cover:1,  show:[1,2,3], desc:'Ideas y marcas convertidas en forma.'},
+  {id:'boda',           name:'Bodas',                 n:12, cover:3,  desc:'El día más importante, contado con calma y detalle.'},
+  {id:'retrato-urbano', name:'Retrato urbano',        n:15, cover:2,  show:[2,4,8], desc:'La ciudad como escenario, la gente como protagonista.'},
   {id:'retrato',        name:'Retrato',               n:9,  cover:4,  desc:'Una persona, una luz y el gesto justo.'},
   {id:'estudio',        name:'Estudio',               n:5,  cover:3,  desc:'Luz medida hasta el último detalle.'},
   {id:'producto',       name:'Producto publicitario', n:7,  cover:5,  desc:'Objetos que dan ganas de tener.'},
   {id:'video',          name:'Video',                 n:2,  cover:1,  desc:'Historias que se cuentan en movimiento.', video:true},
-  {id:'diseno',         name:'Diseño gráfico',        n:8,  cover:8,  desc:'Ideas y marcas convertidas en forma.'},
   {id:'evento',         name:'Eventos',               n:20, cover:2,  desc:'Lo que pasó, contado sin interrumpirlo.'}
 ];
 /* Copias en abanico de la portada: [categoría, número], de izquierda a derecha */
 const FAN=[['evento',17],['estudio',3],['retrato-urbano',2],['producto',1],['retrato',4]];
 /* Fotos de "Fotos destacadas": [categoría, número] */
-const PICKS=[['retrato-urbano',10],['evento',17],['producto',6],['retrato',1],['retrato-urbano',3],['evento',18],['estudio',5],['producto',2],['retrato-urbano',8],['evento',13],['retrato',5],['producto',7]];
+const PICKS=[['boda',3],['retrato-urbano',6],['evento',17],['boda',8],['producto',6],['retrato',1],['retrato-urbano',3],['evento',18],['estudio',5],['producto',2],['retrato-urbano',8],['evento',13],['retrato',5],['producto',7]];
 
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $=id=>document.getElementById(id);
@@ -559,7 +564,7 @@ function media(c,i,opts={}){
 })();
 
 /* ---------- Portada: copias en abanico ---------- */
-$('stat-n').textContent=CATS.reduce((s,c)=>s+c.n,0);
+$('stat-n').textContent=CATS.reduce((s,c)=>s+c.n,0);$('stat-c').textContent=CATS.length;
 FAN.forEach(([id,i],k)=>{
   const c=byId(id),b=document.createElement('button');b.type='button';b.className='print';b.style.setProperty('--i',Math.abs(k-2));
   b.setAttribute('aria-label','Ver '+c.name);
@@ -590,7 +595,7 @@ function pick(k,anim){
   const info=$('show').querySelector('.show-info > div');
   if(anim&&!reduce&&info.animate)info.animate([{opacity:0,transform:'translateY(10px)'},{opacity:1,transform:'none'}],{duration:450,easing:EASE});
   for(let j=0;j<m;j++){
-    const i=((c.cover-1+j*Math.max(1,Math.floor(c.n/3)))%c.n)+1,b=document.createElement('button');b.type='button';b.className='pic';
+    const i=c.show?c.show[j]:((c.cover-1+j*Math.max(1,Math.floor(c.n/3)))%c.n)+1,b=document.createElement('button');b.type='button';b.className='pic';
     b.setAttribute('aria-label','Abrir '+c.name+', '+i+' de '+c.n);
     b.appendChild(media(c,i,{alt:'',size:j===0?'web':'thumb'}));
     if(c.video)b.insertAdjacentHTML('beforeend','<span class="play">'+ICON_PLAY+'</span>');

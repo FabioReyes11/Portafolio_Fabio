@@ -1,45 +1,42 @@
 {
  "url": "http://localhost:5173",
- "at": "2026-11-01T19:43:11.824Z",
+ "at": "2026-11-15T20:42:09.004Z",
  "allow": [],
  "viewports": [
   {
-   "width": 480,
-   "height": 300,
+   "width": 390,
+   "height": 844,
    "load": "load",
-   "screens": 12,
+   "screens": 9,
    "filled": [
-    0.44,
-    0.54,
-    0.7,
-    0.34,
-    0.92,
-    0.92,
-    0.49,
-    0.92,
+    0.51,
+    0.63,
     0.79,
-    0.54,
-    0.52,
-    0.52
+    0.6,
+    0.61,
+    0.71,
+    0.86,
+    0.85,
+    0.85
    ],
    "motion": {
-    "elements": 19,
+    "elements": 31,
     "css": 3,
-    "transitions": 16,
+    "transitions": 28,
     "scripted": 0,
     "videos": 1,
     "playingVideos": 0
    },
    "metrics": {
     "viewport": {
-     "w": 480,
-     "h": 300
+     "w": 390,
+     "h": 844
     },
     "page": {
-     "height": 6702,
-     "screens": 22.3,
-     "words": 411,
-     "img": 24,
+     "height": 6865,
+     "screens": 8.1,
+     "words": 412,
+     "img": 26,
      "video": 1,
      "canvas": 0,
      "svg": 16,
@@ -48,18 +45,18 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 12,
+     "realPictures": 11,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
       "estudio-03.jpg",
       "retrato-urbano-02.jpg",
-      "producto-05.jpg",
-      "retrato-urbano-02.jpg",
-      "retrato-urbano-07.jpg",
-      "retrato-urbano-12.jpg",
-      "retrato-urbano-10.jpg",
-      "evento-17.jpg"
+      "producto-01.jpg",
+      "diseno-01.jpg",
+      "diseno-02.jpg",
+      "diseno-03.jpg",
+      "boda-03.jpg",
+      "retrato-urbano-06.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 2,
@@ -72,8 +69,8 @@
      "words": 2,
      "chars": 11,
      "lines": 2,
-     "size": 51.5,
-     "vw": 10.7,
+     "size": 48,
+     "vw": 12.3,
      "font": "Unbounded",
      "weight": 700,
      "tracking": -0.045,
@@ -84,7 +81,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.92,
-     "top": 173,
+     "top": 196,
      "gradientText": true,
      "tag": "h1",
      "kind": "heading"
@@ -93,7 +90,7 @@
      "text": "Fabio Reyes",
      "words": 2,
      "lines": 2,
-     "size": 51.5,
+     "size": 48,
      "font": "Unbounded"
     },
     "headings": [
@@ -102,8 +99,8 @@
       "words": 2,
       "chars": 11,
       "lines": 2,
-      "size": 51.5,
-      "vw": 10.7,
+      "size": 48,
+      "vw": 12.3,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.045,
@@ -114,7 +111,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 173,
+      "top": 196,
       "gradientText": true,
       "tag": "h1",
       "kind": "heading"
@@ -123,9 +120,9 @@
       "text": "+2 años",
       "words": 2,
       "chars": 7,
-      "lines": 1,
-      "size": 22.7,
-      "vw": 4.7,
+      "lines": 2,
+      "size": 22.4,
+      "vw": 5.7,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.04,
@@ -135,18 +132,18 @@
       "mono": false,
       "align": "center",
       "position": "left",
-      "widthRatio": 0.26,
-      "top": 878,
+      "widthRatio": 0.24,
+      "top": 912,
       "tag": "b",
       "kind": "heading"
      },
      {
-      "text": "66",
+      "text": "81",
       "words": 1,
       "chars": 2,
       "lines": 1,
-      "size": 22.7,
-      "vw": 4.7,
+      "size": 22.4,
+      "vw": 5.7,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.04,
@@ -156,18 +153,18 @@
       "mono": false,
       "align": "center",
       "position": "center",
-      "widthRatio": 0.25,
-      "top": 878,
+      "widthRatio": 0.24,
+      "top": 912,
       "tag": "b",
       "kind": "heading"
      },
      {
-      "text": "7",
+      "text": "8",
       "words": 1,
       "chars": 1,
       "lines": 1,
-      "size": 22.7,
-      "vw": 4.7,
+      "size": 22.4,
+      "vw": 5.7,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.04,
@@ -177,8 +174,8 @@
       "mono": false,
       "align": "center",
       "position": "right",
-      "widthRatio": 0.25,
-      "top": 878,
+      "widthRatio": 0.24,
+      "top": 912,
       "tag": "b",
       "kind": "heading"
      },
@@ -187,8 +184,8 @@
       "words": 2,
       "chars": 10,
       "lines": 1,
-      "size": 31.7,
-      "vw": 6.6,
+      "size": 30.4,
+      "vw": 7.8,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -198,18 +195,18 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.41,
-      "top": 1081,
+      "widthRatio": 0.48,
+      "top": 1139,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "Retrato urbano",
+      "text": "Diseño gráfico",
       "words": 2,
       "chars": 14,
       "lines": 1,
       "size": 28.8,
-      "vw": 6,
+      "vw": 7.4,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -219,8 +216,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.8,
-      "top": 1318,
+      "widthRatio": 0.77,
+      "top": 1401,
       "tag": "h3",
       "kind": "heading"
      },
@@ -228,9 +225,9 @@
       "text": "Fotos destacadas",
       "words": 2,
       "chars": 16,
-      "lines": 1,
-      "size": 31.7,
-      "vw": 6.6,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 7.8,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -240,8 +237,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.84,
-      "top": 2074,
+      "widthRatio": 0.82,
+      "top": 2093,
       "tag": "h2",
       "kind": "heading"
      },
@@ -250,8 +247,8 @@
       "words": 3,
       "chars": 15,
       "lines": 1,
-      "size": 31.7,
-      "vw": 6.6,
+      "size": 30.4,
+      "vw": 7.8,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -262,7 +259,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 3236,
+      "top": 3287,
       "gradientText": true,
       "tag": "h2",
       "kind": "heading"
@@ -273,7 +270,7 @@
       "chars": 11,
       "lines": 1,
       "size": 22.4,
-      "vw": 4.7,
+      "vw": 5.7,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -283,8 +280,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.34,
-      "top": 3657,
+      "widthRatio": 0.41,
+      "top": 3758,
       "tag": "h3",
       "kind": "heading"
      },
@@ -293,8 +290,8 @@
       "words": 2,
       "chars": 12,
       "lines": 1,
-      "size": 31.7,
-      "vw": 6.6,
+      "size": 30.4,
+      "vw": 7.8,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.035,
@@ -304,8 +301,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.54,
-      "top": 4397,
+      "widthRatio": 0.64,
+      "top": 4517,
       "tag": "h2",
       "kind": "heading"
      },
@@ -314,8 +311,8 @@
       "words": 4,
       "chars": 23,
       "lines": 2,
-      "size": 35.2,
-      "vw": 7.3,
+      "size": 32.5,
+      "vw": 8.3,
       "font": "Unbounded",
       "weight": 800,
       "tracking": -0.04,
@@ -325,8 +322,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.8,
-      "top": 5268,
+      "widthRatio": 0.77,
+      "top": 5386,
       "tag": "h2",
       "kind": "heading"
      },
@@ -336,7 +333,7 @@
       "chars": 9,
       "lines": 1,
       "size": 22.4,
-      "vw": 4.7,
+      "vw": 5.7,
       "font": "Unbounded",
       "weight": 700,
       "tracking": -0.03,
@@ -346,8 +343,8 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.71,
-      "top": 5724,
+      "widthRatio": 0.66,
+      "top": 5865,
       "tag": "h3",
       "kind": "heading"
      }
@@ -387,26 +384,25 @@
       20,
       21,
       22,
-      23,
       29,
-      32,
-      35,
-      52
+      30,
+      33,
+      48
      ],
-     "sizeCount": 16,
+     "sizeCount": 15,
      "notLoaded": [],
      "body": {
       "font": "Schibsted Grotesk",
-      "size": 17.9,
+      "size": 17.6,
       "leading": 1.6,
       "weight": 400,
       "tracking": 0,
       "contrast": 7.8
      },
-     "measureChars": 50,
+     "measureChars": 41,
      "max": {
-      "size": 51.5,
-      "vw": 10.7,
+      "size": 48,
+      "vw": 12.3,
       "font": "Unbounded",
       "text": "Fabio"
      },
@@ -428,51 +424,51 @@
     },
     "eyebrows": [
      {
-      "text": "Fotografía",
+      "text": "Diseño",
       "above": "Fabio Reyes",
       "upper": true,
       "tracked": true,
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 128
+      "top": 151
      },
      {
-      "text": "01 / 07",
-      "above": "Retrato urbano",
+      "text": "01 / 08",
+      "above": "Diseño gráfico",
       "upper": false,
       "tracked": false,
       "mono": false,
       "pill": false,
       "size": 14.4,
-      "top": 1283
+      "top": 1366
      }
     ],
     "numbered": [
      {
-      "text": "01 / 07",
+      "text": "01 / 08",
       "size": 14.4,
-      "top": 1283
+      "top": 1366
      },
      {
       "text": "01",
       "size": 13.6,
-      "top": 3789
+      "top": 3890
      },
      {
       "text": "02",
       "size": 13.6,
-      "top": 3938
+      "top": 4039
      },
      {
       "text": "03",
       "size": 13.6,
-      "top": 4087
+      "top": 4188
      },
      {
       "text": "04",
       "size": 13.6,
-      "top": 4238
+      "top": 4336
      }
     ],
     "color": {
@@ -485,17 +481,8 @@
      "dark": true,
      "sectionBgs": [
       {
-       "color": "#f6f5f2",
-       "top": 535,
-       "hsl": {
-        "h": 45,
-        "s": 0.18,
-        "l": 0.96
-       }
-      },
-      {
        "color": "#161618",
-       "top": 856,
+       "top": 1332,
        "hsl": {
         "h": 240,
         "s": 0.04,
@@ -503,45 +490,36 @@
        }
       },
       {
-       "color": "#232326",
-       "top": 1576,
+       "color": "#f6f5f2",
+       "top": 2849,
        "hsl": {
-        "h": 240,
-        "s": 0.04,
-        "l": 0.14
+        "h": 45,
+        "s": 0.18,
+        "l": 0.96
        }
       },
       {
        "color": "#111111",
-       "top": 5702,
+       "top": 5843,
        "hsl": {
         "h": 0,
         "s": 0,
         "l": 0.07
-       }
-      },
-      {
-       "color": "#1e1e21",
-       "top": 6043,
-       "hsl": {
-        "h": 240,
-        "s": 0.05,
-        "l": 0.12
        }
       }
      ],
      "textColors": [
       {
        "color": "#a8a39b",
-       "share": 0.57
+       "share": 0.56
       },
       {
        "color": "#f6f5f2",
-       "share": 0.26
+       "share": 0.27
       },
       {
        "color": "#111111",
-       "share": 0.06
+       "share": 0.07
       },
       {
        "color": "#2b2416",
@@ -564,16 +542,18 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 14,
-     "inHero": 1,
+     "count": 15,
+     "inHero": 3,
      "radius": "pill",
      "height": 46,
-     "withShadow": 11,
+     "withShadow": 12,
      "withGradient": 5,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
-      "Contacto"
+      "Contacto",
+      "Ver mi trabajo",
+      "Cotizar por WhatsApp"
      ]
     },
     "surfaces": {
@@ -585,31 +565,40 @@
       "button.print → rgba(0, 0, 0, 0.65) 0px 26px 50px -26px, rgba(0, 0, 0, 0.18) 0px 2px 6px 0px",
       "button.print → rgba(0, 0, 0, 0.65) 0px 26px 50px -26px, rgba(0, 0, 0, 0.18) 0px 2px 6px 0px"
      ],
-     "gradients": 10,
+     "gradients": 6,
      "scrims": 0,
      "gradientSamples": [
       "a.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)",
-      "a.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)",
-      "button#tab-retrato-urbano → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)",
-      "div#show.show.in → linear-gradient(150deg, rgba(255, 196, 20, 0.14) 0%, rgba(255, 168, 0, 0) 55%), none"
+      "button#tab-diseno → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)",
+      "div#show.show.in → linear-gradient(150deg, rgba(255, 196, 20, 0.14) 0%, rgba(255, 168, 0, 0) 55%), none",
+      "button#sh-open.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)"
      ],
      "gradientText": 2,
      "hairlines": 1,
      "hairlineSamples": [
-      "div.legal 398px"
+      "div.legal 314px"
      ],
      "outlinedBoxes": 0,
      "dashed": 0,
      "blurred": 1,
-     "roundedBoxes": 36,
+     "roundedBoxes": 32,
      "boxRadius": 20,
      "squareMedia": 0,
-     "roundedMedia": 14,
+     "roundedMedia": 15,
      "mediaRadius": 20,
      "textShadow": 0,
      "cardRows": []
     },
-    "heroMedia": [],
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
     "nav": {
      "links": 2,
      "fixed": true,
@@ -624,32 +613,32 @@
    },
    "layout": {
     "viewport": {
-     "w": 480,
-     "h": 300
+     "w": 390,
+     "h": 844
     },
-    "pageH": 6702,
+    "pageH": 6865,
     "margins": {
-     "left": 19,
-     "right": 4
+     "left": 16,
+     "right": 17
     },
     "sections": [
      {
       "sel": "section#inicio.hero",
       "tag": "section",
       "top": 0,
-      "height": 1017,
+      "height": 1075,
       "words": 46,
       "media": 3,
       "middle": 0,
       "heading": {
        "text": "Fabio",
-       "size": 52,
+       "size": 48,
        "tag": "h1"
       },
       "left": 0,
       "right": 0,
-      "textLeft": 24,
-      "textRight": 24,
+      "textLeft": 36,
+      "textRight": 36,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -659,20 +648,20 @@
      {
       "sel": "section#trabajo",
       "tag": "section",
-      "top": 1017,
-      "height": 973,
-      "words": 34,
+      "top": 1075,
+      "height": 935,
+      "words": 33,
       "media": 3,
-      "middle": 561,
+      "middle": 651,
       "heading": {
        "text": "Mi trabajo",
-       "size": 32,
+       "size": 30,
        "tag": "h2"
       },
-      "left": 19,
+      "left": 16,
       "right": 0,
-      "textLeft": 19,
-      "textRight": 52,
+      "textLeft": 16,
+      "textRight": 0,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -682,20 +671,20 @@
      {
       "sel": "section#destacadas",
       "tag": "section",
-      "top": 1990,
-      "height": 728,
-      "words": 24,
-      "media": 12,
-      "middle": 2155,
+      "top": 2009,
+      "height": 759,
+      "words": 21,
+      "media": 14,
+      "middle": 2714,
       "heading": {
        "text": "Fotos destacadas",
-       "size": 32,
+       "size": 30,
        "tag": "h2"
       },
-      "left": 39,
+      "left": 36,
       "right": 0,
-      "textLeft": 39,
-      "textRight": 39,
+      "textLeft": 36,
+      "textRight": 36,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -705,20 +694,20 @@
      {
       "sel": "section#sobre-mi",
       "tag": "section",
-      "top": 2718,
-      "height": 1658,
-      "words": 58,
+      "top": 2769,
+      "height": 1748,
+      "words": 104,
       "media": 1,
       "middle": 0,
       "heading": {
        "text": "Hola, soy",
-       "size": 32,
+       "size": 30,
        "tag": "h2"
       },
-      "left": 19,
-      "right": 25,
-      "textLeft": 19,
-      "textRight": 25,
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -728,16 +717,20 @@
      {
       "sel": "section#proceso",
       "tag": "section",
-      "top": 4375,
-      "height": 843,
-      "words": 0,
+      "top": 4517,
+      "height": 841,
+      "words": 56,
       "media": 0,
       "middle": 0,
-      "heading": null,
-      "left": null,
-      "right": null,
-      "textLeft": null,
-      "textRight": null,
+      "heading": {
+       "text": "Me cuentas la idea",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 42,
+      "textLeft": 16,
+      "textRight": 42,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -747,16 +740,20 @@
      {
       "sel": "section#contacto",
       "tag": "section",
-      "top": 5218,
-      "height": 1115,
-      "words": 0,
+      "top": 5358,
+      "height": 1138,
+      "words": 52,
       "media": 0,
       "middle": 0,
-      "heading": null,
-      "left": null,
-      "right": null,
-      "textLeft": null,
-      "textRight": null,
+      "heading": {
+       "text": "Hablemos de tu proyecto",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 44,
+      "textLeft": 44,
+      "textRight": 44,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -766,16 +763,16 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 6333,
+      "top": 6496,
       "height": 369,
-      "words": 23,
+      "words": 21,
       "media": 0,
       "middle": 0,
       "heading": null,
-      "left": 41,
-      "right": 155,
-      "textLeft": 41,
-      "textRight": 155,
+      "left": 38,
+      "right": 68,
+      "textLeft": 38,
+      "textRight": 68,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -783,53 +780,42 @@
       "pinned": false
      }
     ],
-    "gaps": [
-     {
-      "top": 948,
-      "height": 128
-     },
-     {
-      "top": 1912,
-      "height": 156
-     },
-     {
-      "top": 2604,
-      "height": 204
-     },
-     {
-      "top": 3568,
-      "height": 2788
-     },
-     {
-      "top": 6492,
-      "height": 116
-     }
-    ],
+    "gaps": [],
     "h1s": [
      {
       "text": "Fabio Reyes",
-      "size": 52,
-      "top": 173,
+      "size": 48,
+      "top": 196,
       "firstScreen": true
      }
     ],
-    "edgeText": [],
+    "edgeText": [
+     {
+      "text": "Retrato urbano",
+      "side": "right",
+      "px": 0
+     }
+    ],
     "edges": [
      {
-      "x": 19,
-      "n": 4
+      "x": 16,
+      "n": 7
      },
      {
-      "x": 39,
-      "n": 3
+      "x": 36,
+      "n": 5
      },
      {
-      "x": 195,
+      "x": 66,
+      "n": 1
+     },
+     {
+      "x": 185,
       "n": 1
      }
     ],
-    "leftBlocks": 8,
-    "bodySize": 18,
+    "leftBlocks": 14,
+    "bodySize": 17,
     "stage": false,
     "explains": false,
     "slivers": [],
@@ -844,106 +830,99 @@
   {
    "level": "FAIL",
    "id": "eyebrow",
-   "width": 480,
-   "message": "2 eyebrow/kicker label(s) above headings: \"Fotografía\" above \"Fabio Reyes\"; \"01 / 07\" above \"Retrato urbano\"",
+   "width": 390,
+   "message": "2 eyebrow/kicker label(s) above headings: \"Diseño\" above \"Fabio Reyes\"; \"01 / 08\" above \"Diseño gráfico\"",
    "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
   },
   {
    "level": "FAIL",
    "id": "numbering",
-   "width": 480,
-   "message": "Decorative index numbers: \"01 / 07\", \"01\", \"02\", \"03\", \"04\"",
+   "width": 390,
+   "message": "Decorative index numbers: \"01 / 08\", \"01\", \"02\", \"03\", \"04\"",
    "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>."
   },
   {
    "level": "FAIL",
    "id": "micro-label",
-   "width": 480,
+   "width": 390,
    "message": "4 tiny uppercase letter-spaced labels (e.g. \"Fotografía\", \"Video\", \"Diseño\", \"Edición\").",
    "fix": "Use sentence-case text at a readable size, or delete the label."
   },
   {
    "level": "FAIL",
    "id": "gradient",
-   "width": 480,
-   "message": "10 gradient fill(s): a.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%) | a.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%) | button#tab-retrato-urbano → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%)",
+   "width": 390,
+   "message": "6 gradient fill(s): a.btn.btn-primary → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%) | button#tab-diseno → linear-gradient(135deg, rgb(255, 216, 77) 0%, rgb(255, 196, 20) 45%, rgb(255, 168, 0) 100%) | div#show.show.in → linear-gradient(150deg, rgba(255, 196, 20, 0.14) 0%, rgba(255, 168, 0, 0) 55%), none",
    "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility."
   },
   {
    "level": "FAIL",
    "id": "gradient-text",
-   "width": 480,
+   "width": 390,
    "message": "2 gradient-filled text element(s).",
    "fix": "Solid colour text."
   },
   {
    "level": "FAIL",
    "id": "shadow",
-   "width": 480,
+   "width": 390,
    "message": "8 box-shadow(s) on elements at rest: a.btn.btn-primary → rgba(0, 0, 0, 0.25) 0px 1px 2px 0px | button.print → rgba(0, 0, 0, 0.65) 0px 26px 50px -26px, rgba(0, 0, 0, 0.18) 0px 2px 6px 0px | button.print → rgba(0, 0, 0, 0.65) 0px 26px 50px -26px, rgba(0, 0, 0, 0.18) 0px 2px 6px 0px",
    "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars)."
   },
   {
    "level": "FAIL",
    "id": "button-fx",
-   "width": 480,
+   "width": 390,
    "message": "Buttons with gradient fill and shadow/glow.",
    "fix": "Flat fill, one colour."
   },
   {
    "level": "WARN",
    "id": "hairline",
-   "width": 480,
-   "message": "1 thin rule(s)/divider line(s): div.legal 398px",
+   "width": 390,
+   "message": "1 thin rule(s)/divider line(s): div.legal 314px",
    "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields."
   },
   {
    "level": "WARN",
    "id": "palette-cream",
-   "width": 480,
+   "width": 390,
    "message": "Yellow-cream background (section #f6f5f2, text #f6f5f2).",
    "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream."
   },
   {
    "level": "WARN",
    "id": "size-count",
-   "width": 480,
-   "message": "16 different font sizes (12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 29, 32, 35, 52).",
+   "width": 390,
+   "message": "15 different font sizes (12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 29, 30, 33, 48).",
    "fix": "A page needs about five: display, heading, lead, body, small."
   },
   {
    "level": "WARN",
    "id": "side-scroll",
-   "width": 480,
+   "width": 390,
    "message": "2 row(s) scroll sideways with content past their edge.",
    "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
   },
   {
    "level": "WARN",
-   "id": "off-centre",
-   "width": 480,
-   "message": "The margins differ: 19px on the left, 4px on the right, at 480px.",
-   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+   "id": "name-only-title",
+   "width": 390,
+   "message": "The h1 is a bare name (\"Fabio Reyes\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
   },
   {
    "level": "FAIL",
-   "id": "blank-gap",
-   "width": 480,
-   "message": "4 stretch(es) of the page hold nothing at all: 204px at 2604px; 2788px at 3568px; 128px at 948px; 156px at 1912px (the screen is 300px tall).",
-   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
-  },
-  {
-   "level": "WARN",
-   "id": "name-only-title",
-   "width": 480,
-   "message": "The h1 is a bare name (\"Fabio Reyes\") and nothing else on the first screen says what this is.",
-   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit within 12px of the screen edge: \"Retrato urbano\" (0px from the right)",
+   "fix": "Keep text inside the page margin (16–20px). Only display type deliberately bled past the edge may touch it."
   }
  ],
  "images": [
   {
    "viewport": "mobile",
-   "width": 480,
+   "width": 390,
    "fold": "C:\\Users\\fabiu\\Desktop\\portafolio\\.taste-skill\\inspect\\mobile-fold.jpg",
    "pages": [
     "C:\\Users\\fabiu\\Desktop\\portafolio\\.taste-skill\\inspect\\mobile-page-01.jpg",

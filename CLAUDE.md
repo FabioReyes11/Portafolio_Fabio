@@ -18,9 +18,15 @@ _respaldo/            versiones anteriores (index-anterior.html = original, inde
 ```
 
 Nombres de archivo: `<categoría>-NN.jpg` en minúsculas (`retrato-urbano-01.jpg`). Las categorías,
-cantidades (`n`), foto de portada (`cover`) y textos están en `CATS` al inicio del `<script>`.
+cantidades (`n`), foto de portada (`cover`), fotos fijas de la vitrina (`show`, opcional) y textos están en
+`CATS` al inicio del `<script>`; el orden de `CATS` es el orden de las pestañas.
 Las 5 copias de la portada salen de `FAN` y "Fotos destacadas" de `PICKS`. El total de trabajos de la
-portada se calcula solo a partir de `CATS`.
+portada y el número de categorías se calculan solos a partir de `CATS`.
+
+**Categorías (8), en orden**: Diseño gráfico (11, las 3 más nuevas son 01-03 y salen primero), Bodas (12),
+Retrato urbano, Retrato, Estudio, Producto publicitario, Video, Eventos. Diseño y Bodas van primero porque
+Fabio quiere que se vean. Para que unas piezas nuevas salgan primero, se numeran desde 01 y las demás se corren.
+`img/diseno-07-original.jpg` (126 MB) no se sube a GitHub; `img/diseno-07.jpg` es su versión comprimida.
 
 **Al agregar una foto**: ponla en `img/`, crea su copia en `img/web/` (lado largo 1800 px) y en
 `img/thumb/` (720 px), JPG calidad ~80, nombre en minúsculas, y sube `n` en `CATS`. Nunca enlaces
@@ -85,9 +91,9 @@ sobre negro, blanco y amarillo en degradado.
      (Fotografía ◆ Video / Diseño ◆ Edición). Nunca por debajo de 11px.
    - Copias del abanico, de izquierda a derecha: evento-17, estudio-03, retrato-urbano-02 (centro),
      producto-01, retrato-04.
-3. **Mi trabajo**: pestañas por categoría (nombre + cantidad) y una **vitrina**: a la izquierda número,
+3. **Mi trabajo**: pestañas por categoría (nombre + cantidad, todas en una fila en escritorio) y una **vitrina**: a la izquierda número,
    nombre, descripción, cantidad, "Ver galería completa" y flecha a la siguiente; a la derecha 3 fotos
-   (portada + 2 repartidas por la categoría) que abren el visor. Las flechas del teclado cambian de pestaña.
+   (portada + 2 repartidas por la categoría, o las de `show`: en Diseño, las 3 nuevas) que abren el visor. Las flechas del teclado cambian de pestaña.
 4. **Fotos destacadas**: panel con una **tira horizontal** (`PICKS`), flechas y barra de avance en
    degradado; nombre de la categoría debajo de cada foto.
 5. **Sobre mí**: retrato como copia inclinada sobre una tarjeta amarilla degradada, presentación y chips;
